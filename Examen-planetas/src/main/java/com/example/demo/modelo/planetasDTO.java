@@ -1,15 +1,17 @@
 package com.example.demo.modelo;
 
 public class planetasDTO {
-    private double UA;
+	
+    private float UA;
     private int id;
     private double milesk;
     private String nombre;
-	public double getUA() {
+    
+	public float getUA() {
 		return UA;
 	}
-	public void setUA(double uA) {
-		UA = uA;
+	public void setUA(float UA) {
+		this.UA = UA;
 	}
 	public int getId() {
 		return id;
@@ -29,6 +31,5 @@ public class planetasDTO {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-    
     
 }
